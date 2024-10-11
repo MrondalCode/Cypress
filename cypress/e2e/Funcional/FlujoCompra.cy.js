@@ -14,7 +14,6 @@ describe('Flujo de compra en Sauce', () =>
 
     // Agrega dos productos específicos al carrito de compras.
     saucePage.addProductToCart('Sauce Labs Backpack');
-    // saucePage.addProductToCart('Sauce Labs Bike Light');
     
     // Procede al checkout ingresando la información solicitada.
     saucePage.proceedToCheckout('Michael', 'Ayala', '12345');
