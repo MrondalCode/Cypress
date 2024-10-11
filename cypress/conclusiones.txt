@@ -1,0 +1,18 @@
+Conclusiones sobre el reto:
+-   Implementación Exitosa: Se completó la automatización del flujo de compra en la página SauceDemo utilizando Cypress. Las pruebas E2E incluyeron autenticación, selección de productos, visualización del carrito y finalización de la compra.
+
+-   API Testing: Utilizando Cypress para pruebas de APIs, se realizaron validaciones para los servicios de signup y login en Demoblaze, capturando respuestas esperadas y errores.
+
+-   Lecciones Aprendidas: Se identificaron problemas comunes como la sincronización de tiempos de carga y manejo de errores en respuestas de API.
+
+-   Optimización: Las pruebas fueron mejoradas con buenas prácticas, como la reutilización de código mediante helpers y el uso de reportes detallados con Mochawesome para facilitar la interpretación de resultados.
+
+Hallazgos importantes sobre el ejercicio de automatización realizado:
+
+-   Sincronización y Timeout: Se detectaron problemas de sincronización con tiempos de carga de la página, lo que requirió ajustes en el tiempo de espera configurado en Cypress. Incrementar el pageLoadTimeout fue necesario para estabilizar las pruebas.
+
+-   Validación de Errores: En las pruebas de API, se encontraron casos donde las respuestas esperadas no coincidían con las propiedades evaluadas. Esto resaltó la importancia de validar correctamente los mensajes de error devueltos por las APIs.
+
+-   Reutilización de Código: La creación de helpers tanto para las pruebas E2E como de API ayudó a modularizar el código, mejorando su mantenimiento y reusabilidad.
+
+-   Manejo de Navegadores: Hubo desafíos para ejecutar las pruebas en diferentes navegadores, especialmente con Firefox bajo control remoto, lo cual demostró la importancia de ajustar configuraciones para cada navegador en Cypress.
